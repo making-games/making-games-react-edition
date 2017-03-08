@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "$npm_package_config_webpack",
+    "watch": "$npm_package_config_webpack -w",
+    "prod": "$npm_package_config_webpack -p"
+  },
+  "config": {
+    "webpack": "webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.23.0",
+    "laravel-mix": "^0.8.8",
+    "pixi.js": "^4.4.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-pixi": "^0.9.5",
+    "webpack": "^2.2.1"
+  }
+}
