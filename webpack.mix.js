@@ -19,3 +19,5 @@ mix.setPublicPath("dist")
 
 mix.js("src/js/main.jsx", "dist/js/main.js")
 mix.sass("src/css/main.scss", "dist/css/main.css")
+
+mix.copy("src/img/*", "dist/img")
